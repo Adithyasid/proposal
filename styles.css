@@ -1,0 +1,71 @@
+html{
+    background-color: #92C7CF;
+}
+H1{
+    font-size: 3rem;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+button{
+    color: #E5E1DA;
+    font-family: 'Brush Script MT', cursive;
+    height: 50px;
+    width: 500px;
+    border-radius: 100px;
+}
+img{
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    color: black ;
+}
+img{
+    height: 333px;
+    width: 500px;
+    align-self: center;
+}
+.magawd{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-size: medium;
+}
+@media (max-width:375px)
+{
+    h1{
+        font-size: 4rem;
+    }
+    img {
+        width: 50%;
+        height: 1000px;
+        align-self: center;
+    }
+    .magawd {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        margin-top: 50px;
+        font-size: large;
+        margin-top: 50px;
+    }
+    .options {
+        color: black;
+        font-size: 3rem;
+    }
+    button {
+        color: #E5E1DA;
+        font-family: 'Brush Script MT', cursive;
+        height: 4rem;
+        width: 386px;
+        border-radius: 100px;
+        margin-left: auto;
+        margin-right: 50px;
+    }
+}
+
